@@ -1,5 +1,44 @@
 {
   "sections": {
+    "1258839c-5487-47df-870b-111e841511a3": {
+      "type": "kinda-image-banner",
+      "blocks": {
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "Habitant eu eu semper pretium cras blandit vulputate quis. Velit volutpat eget adipiscing mi varius quis. At et faucibus velit ut in varius fermentum imperdiet. Tempus eu cras sapien mi augue mauris. Pellentesque eget tellus lobortis facilisis ac pharetra sed luctus.",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Click here",
+            "button_link_1": "shopify:\/\/products\/copy-of-cranberry",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1",
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cranberry_banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -68,6 +107,7 @@
     }
   },
   "order": [
+    "1258839c-5487-47df-870b-111e841511a3",
     "image_banner",
     "featured_collection"
   ]
