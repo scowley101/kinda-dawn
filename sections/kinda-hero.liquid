@@ -1,44 +1,49 @@
-<div><h1>The Hero Section</h1></div>
+<div
+  class="hero-container">
+  <h1>
+    The Hero Section
+  </h1>
+</div>
 
 {% schema %}
-{
-  "name": "Hero Section",
-  "tag": "section",
-  "class": "",
-  "settings": [
-    {
-      "type": "text",
-      "id": "tagline",
-      "label": "Tagline"
-    },
-    {
-      "type": "text",
-      "id": "button_text",
-      "label": "Button text"
-    },
-    {
-      "type": "url",
-      "id": "button_link",
-      "label": "Button link"
-    }
-  ],
-  "blocks": [
-    {
-      "name": "Images",
-      "type": "images",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Hero Section"
-    }
-  ]
-}
+  {
+    "name": "Hero Section",
+    "tag": "section",
+    "class": "hero",
+    "settings": [
+      {
+        "type": "text",
+        "id": "tagline",
+        "label": "Tagline"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Images",
+        "type": "images",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero Section"
+      }
+    ]
+  }
 {% endschema %}
