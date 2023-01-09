@@ -8,12 +8,12 @@
     "eslint.enable": false,
     // Enables formatting of .liquid files
     "[liquid]": {
-        "editor.defaultFormatter": "sissel.shopify-liquid",
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
         "editor.formatOnSave": true
     },
     // Enables formatting of all .css.liquid files
     "[liquid-css]": {
-        "editor.defaultFormatter": "sissel.shopify-liquid",
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
         "editor.formatOnSave": false
     },
     "better-comments.tags": [
