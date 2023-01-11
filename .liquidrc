@@ -1,5 +1,5 @@
 {
-  // "ignore": ["./src/ignore-file.liquid"],
+  "ignore": ["./layout/theme.liquid"],
   "wrap": 0,
   "commentIndent": true,
   "crlf": false,
@@ -11,8 +11,7 @@
     "correct": true,
     "attributeValues": "preserve",
     "quoteConvert": "none",
-    "delimiterSpacing": true,
-    "selfCloseSpace": true,
+        "selfCloseSpace": true,
     "commentNewline": true,
     "forceIndent": true,
     "attributeSort": true,

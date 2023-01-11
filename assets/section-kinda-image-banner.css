@@ -44,7 +44,6 @@
     .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__box,
     .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__box {
       max-width: 25rem;
-      background-color: yellow;
 
     }
   }
@@ -55,7 +54,6 @@
         .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__box,
         .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__box {
           max-width: 25rem;
-          background-color: green;
     
         }
       }
@@ -269,11 +267,6 @@
     justify-content: center;
     z-index: 2;
   }
-
-  @media screen and (max-width: 800px) {
-  .kinda-banner__content {
-background-color: var(--color-base-background-3);
-  }}
   
   @media screen and (min-width: 750px) {
     .kinda-banner__content {
