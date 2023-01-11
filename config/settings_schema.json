@@ -1198,6 +1198,9 @@
             "value": "accent-2",
             "label": "t:sections.all.colors.accent_2.label"
           }, {
+            "value": "accent-3",
+            "label": "Accent 3"
+          }, {
             "value": "outline-button",
             "label": "t:settings_schema.styles.settings.accent_icons.options__3.label"
           }, {

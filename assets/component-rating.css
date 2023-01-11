@@ -1,16 +1,20 @@
 .rating {
   display: inline-block;
   margin: 0;
+  color: red;
+
 }
 
 .product .rating-star {
   --letter-spacing: 0.8;
   --font-size: 1.7;
+
 }
 
 .card-wrapper .rating-star {
   --letter-spacing: 0.7;
   --font-size: 1.4;
+
 }
 
 .rating-star {
@@ -38,15 +42,19 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .rating-text {
   display: none;
+
+
 }
 
 .rating-count {
   display: inline-block;
   margin: 0;
+
 }
 
 @media (forced-colors: active) {
