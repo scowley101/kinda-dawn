@@ -77,4 +77,5 @@
 
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
+  /* background-color: rgba(var(--color-button), var(--alpha-button-background)); */
 }

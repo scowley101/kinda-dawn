@@ -107,6 +107,14 @@
   --color-button-text: var(--color-foreground);
 }
 
+.color-background-3 .button--secondary,
+.color-accent-1 .button--secondary,
+.color-accent-2 .button--secondary,
+.color-accent-3 .button--secondary {
+  --color-button: var(--color-background);
+  --color-button-text: var(--color-foreground);
+}
+
 .color-inverse .button--secondary {
   --color-button: var(--color-background);
   --color-button-text: var(--color-foreground);
@@ -127,6 +135,15 @@
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-foreground);
 }
+
+/* .color-background-3 .button--tertiary,
+.color-inverse .button--tertiary,
+.color-accent-1 .button--tertiary,
+.color-accent-2 .button--tertiary,
+.color-accent-3 .button--tertiary  {
+  --color-button: var(--color-foreground);
+  --color-button-text: var(--color-foreground);
+} */
 
 :root,
 .color-background-1 {
@@ -1412,13 +1429,14 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
 }
 
-.button:not([disabled]):hover,
+/* attempt to force hover state before i figured out class based button color logic */
+/* .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover,
 .shopify-payment-button__button--unbranded:hover {
 background-color: rgb(var(--color-foreground));
 color: rgb(var(--color-background));
-}
+} */
 
 .button:not([disabled]):hover::after,
 .shopify-challenge__button:hover::after,
