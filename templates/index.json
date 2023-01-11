@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/cranberry_banner.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -39,76 +39,36 @@
         "show_text_below": true
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Habitant eu eu semper pretium cras blandit vulputate quis. Velit volutpat eget adipiscing mi varius quis. At et faucibus velit ut in varius fermentum imperdiet. Tempus eu cras sapien mi augue mauris. Pellentesque eget tellus lobortis facilisis ac pharetra sed luctus.",
-            "text_style": "subtitle"
-          }
-        },
-        "9f05d61b-143d-41c4-9bf2-9534733cc8a8": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Click here",
-            "button_link_1": "shopify:\/\/products\/copy-of-cranberry",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "9f05d61b-143d-41c4-9bf2-9534733cc8a8"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cranberry_banner.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "color_scheme": "background-2",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
+        "show_rating": true,
+        "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 28,
-        "padding_bottom": 36
+        "padding_bottom": 28
       }
     }
   },
   "order": [
     "1258839c-5487-47df-870b-111e841511a3",
-    "image_banner",
     "featured_collection"
   ]
 }
