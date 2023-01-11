@@ -346,9 +346,9 @@ padding-bottom: 5rem;
   @media screen and (min-width: 750px) {
     .kinda-banner--desktop-transparent .kinda-banner__box {
       background: transparent;
-      --color-foreground: 255, 255, 255;
-      --color-button: 255, 255, 255;
-      --color-button-text: 0, 0, 0;
+      /* --color-foreground: 255, 255, 255; */
+      /* --color-button: 255, 255, 255; */
+      /* --color-button-text: 0, 0, 0; */
       max-width: 55rem;
       border: none;
       border-radius: 0;
