@@ -1412,6 +1412,14 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
 }
 
+.button:not([disabled]):hover,
+.shopify-challenge__button:hover,
+.customer button:hover,
+.shopify-payment-button__button--unbranded:hover {
+background-color: rgb(var(--color-foreground));
+color: rgb(var(--color-background));
+}
+
 .button:not([disabled]):hover::after,
 .shopify-challenge__button:hover::after,
 .customer button:hover::after,
