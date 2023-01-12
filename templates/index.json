@@ -1,5 +1,60 @@
 {
   "sections": {
+    "3d10db2c-2f57-4697-80d5-a819a0545e5c": {
+      "type": "kinda-hero",
+      "settings": {
+        "tagline": "",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "d206b9ff-5f26-44ba-84cd-0a550b3cba8a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-0",
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-1",
+        "template--16722218451162__d206b9ff-5f26-44ba-84cd-0a550b3cba8a-167354125361406e7a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/What_is_Veganuary_-_Kinda_Co..webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1258839c-5487-47df-870b-111e841511a3": {
       "type": "kinda-image-banner",
       "blocks": {
@@ -68,6 +123,8 @@
     }
   },
   "order": [
+    "3d10db2c-2f57-4697-80d5-a819a0545e5c",
+    "d206b9ff-5f26-44ba-84cd-0a550b3cba8a",
     "1258839c-5487-47df-870b-111e841511a3",
     "featured_collection"
   ]

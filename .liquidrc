@@ -17,7 +17,7 @@
     "attributeSort": true,
     "attributeSortList": [],
     "attributeCasing": "preserve",
-    "forceAttribute": true,
+    "forceAttribute": 3,
     "forceLeadAttribute": false,
     "preserveAttributes": false,
     "preserveText": true
@@ -32,8 +32,8 @@
   },
   "style": {
     "correct": false,
-    "sortProperties": true,
-    "sortSelectors": true,
+    "sortProperties": false,
+    "sortSelectors": false,
     "noLeadZero": true,
     "quoteConvert": "single",
     "classPadding": true,

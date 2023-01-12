@@ -3039,3 +3039,22 @@ details-disclosure>details {
     outline: transparent solid 1px;
   }
 }
+
+/* Hero pattern */
+
+.pattern__shape--color-4 {
+fill: #C01953;
+}
+
+.pattern__shape--color-3 {
+  fill: #ED6C84;
+}
+
+.pattern__shape--color-2 {
+  fill: #FDECE5;
+}
+
+.pattern__shape--color-background {
+  fill: var(--color-background);
+
+}
