@@ -3,17 +3,92 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* max-width: 68rem; */
-    min-height: 60rem;
+    justify-content: flex-end;
+    width: 100%;
     position: relative;
   }
 
-  .hero__content {
-    align-items: center;
-    /* justify-content: center; */
+  .hero,
+  .hero__media {
+    height: 75vh;
+    min-height: 573px;
+  }
+
+  /* .hero__media {
     display: flex;
-    height: fit-content;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0 0 100%;
+
+  }
+
+  .hero__media svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  } */
+
+  .hero__media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero_background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 62%;
+    position: absolute;
+
+  }
+
+  .hero_background svg {
+    height: 100%;
+  }
+
+  .hero__sticker {
+    background: rgb(var(--color-background));
+    border-radius: 100%;
+    height: 115%;
+    max-height: 689px;
+    aspect-ratio: 1 / 1;
+    padding: 0;
+    position: absolute;
+    top: -19.5%;
+    z-index: 2;
+  }
+
+  .hero__sticker .semi {
+    z-index: 3;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+
+    height: 50%;
+    width: 50%;
+  }
+
+  .hero__content {
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    border-radius: 100%;
+    padding: 1.6rem;
     height: 100%;
     width: 100%;
     word-wrap: break-word;
@@ -21,54 +96,39 @@
 
   }
 
-
-  .hero__media {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: flex-end;
-    /* left: 0; */
-    /* position: absolute; */
-    /* top: 0; */
+  .hero__content h1 {
     width: 100%;
-  }
+    text-align: center;
 
-  .hero__sticker {
-    background: red;
-    border-radius: 100%;
-    height: 50rem;
-    width: 50rem;
-    padding: 0;
-    position: absolute;
-    top: 10rem;
-    z-index: 2;
   }
-
-  .hero__pattern {
-    /* object-fit: cover; */
-
-    /* width: 3000px; */
-  }
-  /* 
-  .pattern {
-    width: 3000px;
-  } */
 {% endstyle %}
 
 <div class="hero">
   <div class="hero__media">
-    <div class="hero__pattern">
-      {% render 'pattern-16x4' %}
+    <div class="hero_background">
+      {% render 'pattern-2640x350' %}
+    </div>
+    <div class="hero__sticker">
+      <div class="semi">
+        .
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__tagline">
+          Fringilla erat amet risus erat cursus bibendum
+        </h1>
+        <div class="">
+          <a
+            aria-label=""
+            class="button "
+            href="">
+            shop now
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="hero__sticker">
-    <div class="hero__content">
-      <h1 class="hero__tagline">
-        Fringilla erat amet risus erat cursus bibendum
-      </h1>
-    </div>
-  </div>
+
+
 </div>
 
 
