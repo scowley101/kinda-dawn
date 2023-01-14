@@ -68,16 +68,120 @@
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "left",
+        "desktop_content_width": "medium",
         "color_scheme": "background-3",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": true
+      }
+    },
+    "18d86cf9-be11-4d1c-935c-279ba9d37dc5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/planet-organic-logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/selfridges-logo-tall_e9392dea-699e-45c1-a56d-839170e25054.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vegan-kind-logo-wide.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-0",
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-1",
+        "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-2"
+      ],
+      "settings": {
+        "title": "Stocked in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "all stockists",
+        "button_link": "shopify:\/\/pages\/stockists",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cf9ff4fd-6701-4e7a-804a-b39abcac9612": {
+      "type": "kinda-image-banner",
+      "blocks": {
+        "template--16722218451162__cf9ff4fd-6701-4e7a-804a-b39abcac9612-1673695945044d136c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Morbi neque tellus egestas tellus in. Amet aliquam diam nibh ut posuere nisl in vehicula diam. Pretium in convallis amet magna tellus mauris tortor.",
+            "text_style": "subtitle"
+          }
+        },
+        "95b5fddc-7620-4620-bf2a-848ffd26c199": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/kinda-plant-based-icon.png",
+            "image_width": "third",
+            "image_ratio": "adapt"
+          }
+        },
+        "f6091541-60bb-494e-97b6-5c4411faca7e": {
+          "type": "image",
+          "settings": {
+            "image_width": "third",
+            "image_ratio": "adapt"
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__cf9ff4fd-6701-4e7a-804a-b39abcac9612-1673695945044d136c-1",
+        "95b5fddc-7620-4620-bf2a-848ffd26c199",
+        "f6091541-60bb-494e-97b6-5c4411faca7e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cheeseboard-mask-2_8ee10f2f-85e8-40a7-b08a-5a934d34c6dd.png",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "desktop_content_width": "wide",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
   "order": [
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
     "featured_collection",
-    "1258839c-5487-47df-870b-111e841511a3"
+    "1258839c-5487-47df-870b-111e841511a3",
+    "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
+    "cf9ff4fd-6701-4e7a-804a-b39abcac9612"
   ]
 }

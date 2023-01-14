@@ -28,52 +28,79 @@
     }
   }
 
-  /* Added media queries for left long align */
+  /* Added media queries for different widths */
   @media only screen and (min-width: 1000px) {
-   
-   .kinda-banner--content-wide .kinda-banner__box {
-    max-width: 80rem;
+   /* wide */
+    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box  {
+    max-width: 85rem;
+   }
+    /* medium */
+    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box  {
+    max-width: 53rem;
+    }
+   /* short */
+   .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+   .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+   .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box  {
+   max-width: 40rem;
    }
   }
 
   @media only screen and (min-width: 800px) and (max-width:999px) {
 
+    /* wide */
+    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box  {
+    max-width: 70rem;
+   }
+    /* medium */
+    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box  {
+    max-width: 60rem;
+    }
+   /* short */
+   .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box,
+   .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box,
+   .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box  {
+   max-width: 40rem;
+   }
+   
   }
 
   @media only screen and (max-width:749) {
-
-  }
-
-/* Added media query for mid width stylings - large*/
-  @media only screen and (min-width: 1000px) {
-  
-    .kinda-banner--content-align-left.kinda-banner--desktop-transparent:not(.kinda-banner--content-wide) .kinda-banner__box,
-    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__box,
-    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__box {
-
-     max-width: 53rem;
-    }
-  }
-
+  /* wide */
+  .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+  .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+  .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box  {
+  max-width: 40rem;
+ }
   /* medium */
-  @media only screen and (min-width: 800px) and (max-width:999px) {
-    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__box,
-    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__box,
-    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__box {
-      max-width: 25rem;
+  .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+  .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box,
+  .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--medium .kinda-banner__box  {
+    max-width: 30rem;
+  }
+ /* short */
+ .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box,
+ .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box,
+ .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--short .kinda-banner__box  {
+ max-width: 25rem;
+ }
 
+    .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box,
+    .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__content--wide .kinda-banner__box {
+      background: blue;
+      max-width: 30rem;
     }
   }
 
-    /* small */
-    @media only screen and (max-width:749) {
-        .kinda-banner--content-align-left.kinda-banner--desktop-transparent .kinda-banner__box,
-        .kinda-banner--content-align-right.kinda-banner--desktop-transparent .kinda-banner__box,
-        .kinda-banner--medium.kinda-banner--desktop-transparent .kinda-banner__box {
-          max-width: 25rem;
-    
-        }
-      }
 
   @media screen and (max-width: 749px) {
     .kinda-banner--small.kinda-banner--mobile-bottom:not(.kinda-banner--adapt) .kinda-banner__media,
@@ -366,18 +393,18 @@ padding-bottom: 5rem;
       /* --color-foreground: 255, 255, 255; */
       /* --color-button: 255, 255, 255; */
       /* --color-button-text: 0, 0, 0; */
-      max-width: 55rem;
+      /* max-width: 55rem; */
       border: none;
       border-radius: 0;
       box-shadow: none;
     }
 
-    .kinda-banner--desktop-transparent:not(.kinda-banner--content-wide) .kinda-banner__box {
+    /* .kinda-banner--desktop-transparent .kinda-banner__box {
    
       max-width: 55rem;
  
     }
-  
+   */
     .kinda-banner--desktop-transparent .button--secondary {
       --color-button: 255, 255, 255;
       --color-button-text: 255, 255, 255;

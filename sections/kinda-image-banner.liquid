@@ -107,6 +107,24 @@
               {{ block.settings.text | escape }}
             </span>
           </div>
+          {%- when 'image' -%}
+          <div class="kinda-banner-card__image-wrapper kinda-banner-card__image-wrapper--{{ block.settings.image_width }}-width{% if block.settings.image_width != 'full' or spaced_image %}{% endif %}">
+            <div
+              class="media media--transparent media--{{ block.settings.image_ratio }}"
+              {% if block.settings.image_ratio == 'adapt' %}
+              style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+              {% endif %}>
+              {{ 
+ block.settings.block_image
+ | image_url: width: 3840
+ | image_tag:
+ loading: 'lazy',
+ widths: '275, 550, 710, 1420',
+ class: 'kinda-banner-card__image',
+ sizes: '20vw'
+ }}
+            </div>
+          </div>
           {%- when 'buttons' -%}
           <div class="kinda-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} kinda-banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
             {%- if block.settings.button_label_1 != blank -%}
@@ -423,6 +441,61 @@
         ]
       },
       {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "block_image",
+            "label": "Block image"
+          },
+          {
+            "type": "select",
+            "id": "image_width",
+            "options": [
+              {
+                "value": "third",
+                "label": "Third width"
+              },
+              {
+                "value": "half",
+                "label": "Half width"
+              },
+              {
+                "value": "full",
+                "label": "Full width"
+              }
+            ],
+            "default": "full",
+            "label": "Image width"
+          },
+          {
+            "type": "select",
+            "id": "image_ratio",
+            "options": [
+              {
+                "value": "adapt",
+                "label": "Adapt"
+              },
+              {
+                "value": "portrait",
+                "label": "Portrait"
+              },
+              {
+                "value": "square",
+                "label": "Square"
+              },
+              {
+                "value": "circle",
+                "label": "Circle"
+              }
+            ],
+            "default": "adapt",
+            "label": "Image ratio"
+          }
+        ]
+      },
+      {
         "type": "buttons",
         "name": "t:sections.image-banner.blocks.buttons.name",
         "limit": 1,
@@ -475,6 +548,9 @@
           },
           {
             "type": "text"
+          },
+          {
+            "type": "image"
           },
           {
             "type": "buttons"
