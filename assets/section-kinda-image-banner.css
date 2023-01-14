@@ -514,4 +514,38 @@ padding-bottom: 5rem;
   .kinda-banner__box > * + .kinda-banner__buttons {
     margin-top: 2rem;
   }
+
+  /* image block styles */
   
+  .kinda-banner-card__image-wrapper--third-width {
+    width: 25%;
+  }
+  
+  .kinda-banner-card__image-wrapper--half-width {
+    width: 50%;
+    
+  }
+
+  .kinda-banner--content-align-center .media--adapt,
+.kinda-banner.media--adapt .kinda-banner-card__image {
+  width: auto;
+
+}
+
+.kinda-banner--content-align-center .media--adapt img {
+  
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.kinda-banner-card > .kinda-banner-card__image-wrapper--full-width:not(.kinda-banner-card-spacing) {
+  border-top-left-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
+  border-top-right-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
+  overflow: hidden;
+  
+}
+
+.kinda-banner-card__image-wrapper .media>.kinda-banner-card__image {
+  position: static;
+}

@@ -148,19 +148,11 @@
             "image_width": "third",
             "image_ratio": "adapt"
           }
-        },
-        "f6091541-60bb-494e-97b6-5c4411faca7e": {
-          "type": "image",
-          "settings": {
-            "image_width": "third",
-            "image_ratio": "adapt"
-          }
         }
       },
       "block_order": [
         "template--16722218451162__cf9ff4fd-6701-4e7a-804a-b39abcac9612-1673695945044d136c-1",
-        "95b5fddc-7620-4620-bf2a-848ffd26c199",
-        "f6091541-60bb-494e-97b6-5c4411faca7e"
+        "95b5fddc-7620-4620-bf2a-848ffd26c199"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/cheeseboard-mask-2_8ee10f2f-85e8-40a7-b08a-5a934d34c6dd.png",

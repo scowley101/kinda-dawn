@@ -2709,12 +2709,22 @@ details[open]>.header__submenu {
   padding: 0 1rem;
 }
 
-.header__menu-item {
+.footer .list-menu__item,
+ .header__menu-item {
   font-family: var(--font-heading-family);
   text-transform: uppercase;
-  padding: 3.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 1);
+}
+
+.footer .list-menu__item {
+  padding: 1.6rem;
+
+}
+
+.header__menu-item {
+  padding: 3.2rem;
+
 }
 
 .header__menu-item:hover {
