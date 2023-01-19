@@ -204,6 +204,10 @@ slider-component.slider-component-full-width {
     width: calc( (100% - var(--desktop-margin-left-first-item)) - var(--grid-desktop-horizontal-spacing) * 9);
   }
 
+  .slider--desktop.grid--1-col-desktop.testimonial .grid__item {
+    width: 100%;
+  }
+
   .slider.slider--desktop.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {
     padding-bottom: var(--focus-outline-padding);
   }

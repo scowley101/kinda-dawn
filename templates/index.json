@@ -222,6 +222,55 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "47a5e132-4d62-4fa2-805d-8e663aff45b9": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-0",
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-1",
+        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -230,6 +279,7 @@
     "featured_collection",
     "1258839c-5487-47df-870b-111e841511a3",
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
-    "cf9ff4fd-6701-4e7a-804a-b39abcac9612"
+    "cf9ff4fd-6701-4e7a-804a-b39abcac9612",
+    "47a5e132-4d62-4fa2-805d-8e663aff45b9"
   ]
 }
