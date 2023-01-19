@@ -2,10 +2,65 @@
   "sections": {
     "3d10db2c-2f57-4697-80d5-a819a0545e5c": {
       "type": "kinda-hero",
+      "disabled": true,
       "settings": {
         "tagline": "Fringilla erat amet risus erat cursus bibendum",
         "button_text": "Shop now",
         "button_link": "shopify:\/\/collections\/all-products"
+      }
+    },
+    "5373e3c5-54f6-4cba-9216-d0628f500d90": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FRINGILLA ERAT AMET RISUS ERAT CURSUS BIBENDUM",
+            "heading_size": "h1"
+          }
+        },
+        "e19b8ed1-632c-45bb-9224-ffa8582f83a9": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "FRINGILLA ERAT AMET RISUS ERAT CURSUS BIBENDUM",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-0",
+        "e19b8ed1-632c-45bb-9224-ffa8582f83a9",
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-1",
+        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/angled_blocks.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -171,6 +226,7 @@
   },
   "order": [
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
+    "5373e3c5-54f6-4cba-9216-d0628f500d90",
     "featured_collection",
     "1258839c-5487-47df-870b-111e841511a3",
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
