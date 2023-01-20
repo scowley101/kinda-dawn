@@ -2,15 +2,15 @@
   "sections": {
     "3d10db2c-2f57-4697-80d5-a819a0545e5c": {
       "type": "kinda-hero",
-      "disabled": true,
       "settings": {
-        "tagline": "Fringilla erat amet risus erat cursus bibendum",
+        "tagline": "Fringilla amet risus erat cursus",
         "button_text": "Shop now",
         "button_link": "shopify:\/\/collections\/all-products"
       }
     },
     "5373e3c5-54f6-4cba-9216-d0628f500d90": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-0": {
           "type": "heading",

@@ -8,10 +8,16 @@
     position: relative;
   }
 
-  .hero,
+  /* .hero,
   .hero__media {
     height: 75vh;
     min-height: 573px;
+  } */
+
+  .hero,
+  .hero__media {
+    height: 58vh;
+    /* min-height: 400px; */
   }
 
   /* .hero__media {
@@ -60,12 +66,12 @@
   .hero__sticker {
     background: rgb(var(--color-background));
     border-radius: 100%;
-    height: 115%;
-    max-height: 689px;
+    height: 130%;
+    max-height: 580px;
     aspect-ratio: 1 / 1;
     padding: 0;
     position: absolute;
-    top: -19.5%;
+    top: -35%;
     z-index: 2;
   }
 
@@ -81,7 +87,7 @@
 
   .hero__content {
     position: absolute;
-    top: 10%;
+    top: 6%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +119,7 @@
         .
       </div>
       <div class="hero__content">
-        <h1 class="hero__tagline">
+        <h1 class="h1 hero__tagline">
           {{ section.settings.tagline }}
         </h1>
         <div class="">
