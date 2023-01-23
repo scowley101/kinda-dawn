@@ -1,0 +1,16 @@
+.kinda-multicolumn-list {
+display: grid;  
+grid: auto-flow dense / repeat(2, 1fr);
+gap: 0;
+
+}
+
+.kinda-multicolumn-list__nutritional {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+}
+
+.kinda-multicolumn-list__blocks .multicolumn-card {
+    padding-right: 5rem;
+    height: 50px;
+}
