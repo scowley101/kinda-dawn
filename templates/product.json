@@ -73,69 +73,6 @@
         "padding_bottom": 12
       }
     },
-    "2e141bba-7520-4e22-a39d-f86b5edb6ecd": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1": {
-          "type": "column",
-          "settings": {
-            "title": "Ingredients",
-            "text": "<p><strong>Cashew Nuts (63%)<\/strong>, Unflavoured Coconut Oil, Miso (Filtered Water, <strong>Soy Beans<\/strong>, Brown Rice, Salt, Alcohol), Water, Natural Culture, Salt, Acidity Regulator (Citric Acid), Spirulina Powder<\/p><p><br\/>Allergens in <strong>bold<\/strong>. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "21e0e13c-d1e8-4d66-a04f-ef3682605775": {
-          "type": "column",
-          "settings": {
-            "title": "Storage Information",
-            "text": "<p>Average shelf life upon receiving 7-14 days.<\/p><p><\/p><p>Suitable for freezing - freeze on day on day of delivery and consume within 6 months. Defrost overnight in the fridge before eating.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2": {
-          "type": "column",
-          "settings": {
-            "title": "Nutritional Info",
-            "text": "<p><span style=\"text-decoration:underline\">Per 100g:<\/span><\/p><p>Energy                        2201kJ \/ 533Kcal<\/p><p>Fat                               51g<\/p><p>of which Saturates    28g<\/p><p>Carbohydrates           9.4g<\/p><p>of which Sugars         2.4g<\/p><p>Protein                        9.1g<\/p><p>Salt                              0.98g<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-0",
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1",
-        "21e0e13c-d1e8-4d66-a04f-ef3682605775",
-        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -174,25 +111,31 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "91f3ce25-5496-4e39-a24c-7e1e662cb122": {
+          "type": "nutritional-column",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-0",
-        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-1"
+        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-1",
+        "91f3ce25-5496-4e39-a24c-7e1e662cb122"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -200,7 +143,6 @@
   },
   "order": [
     "main",
-    "2e141bba-7520-4e22-a39d-f86b5edb6ecd",
     "related-products",
     "f1f00239-51e3-4ce1-8409-4390c282fddc"
   ]
