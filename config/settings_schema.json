@@ -1346,5 +1346,51 @@
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
+  }, {
+    "name": "Nutritional guidlines",
+    "settings": [
+      {
+        "info": "Reference Intakes for energy and selected nutrients (adults)",
+        "type": "number",
+        "id": "energy_kj",
+        "label": "Energy (Kj)",
+        "default": 8400
+      }, {
+        "type": "number",
+        "id": "energy_kcal",
+        "label": "Energy (Kcal)",
+        "default": 2000
+      }, {
+        "type": "number",
+        "id": "fat",
+        "label": "Fat (g)",
+        "default": 70
+      }, {
+        "type": "number",
+        "id": "fat_saturates",
+        "label": "of which Saturates",
+        "default": 20
+      }, {
+        "type": "number",
+        "id": "carbs",
+        "label": "Carbohydrates",
+        "default": 260
+      }, {
+        "type": "number",
+        "id": "carbs_sugar",
+        "label": "Sugars",
+        "default": 90
+      }, {
+        "type": "number",
+        "id": "protein",
+        "label": "Protein",
+        "default": 50
+      }, {
+        "type": "number",
+        "id": "salt",
+        "label": "Salt",
+        "default": 6
+      }
+    ]
   }
 ]

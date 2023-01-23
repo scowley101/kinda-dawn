@@ -447,6 +447,10 @@ body,
   font-weight: var(--font-body-weight);
 }
 
+.text-bold {
+  
+}
+
 h1,
 h2,
 h3,

@@ -153,11 +153,55 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "f1f00239-51e3-4ce1-8409-4390c282fddc": {
+      "type": "kinda-product-multicolumn",
+      "blocks": {
+        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-0": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p><strong>Cashew Nuts (63%)<\/strong>, Unflavoured Coconut Oil, Miso (Filtered Water, <strong>Soy Beans<\/strong>, Brown Rice, Salt, Alcohol), Water, Natural Culture, Salt, Acidity Regulator (Citric Acid), Spirulina Powder<\/p><p><br\/>Allergens in <strong>bold<\/strong>. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-1": {
+          "type": "column",
+          "settings": {
+            "title": "Storage Information",
+            "text": "<p>Average shelf life upon receiving 7-14 days.<\/p><p><\/p><p>Suitable for freezing - freeze on day on day of delivery and consume within 6 months. Defrost overnight in the fridge before eating.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-0",
+        "template--16722218647770__f1f00239-51e3-4ce1-8409-4390c282fddc-16744810553ec9ecc8-1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "2e141bba-7520-4e22-a39d-f86b5edb6ecd",
-    "related-products"
+    "related-products",
+    "f1f00239-51e3-4ce1-8409-4390c282fddc"
   ]
 }

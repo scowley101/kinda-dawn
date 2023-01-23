@@ -8,6 +8,15 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 </noscript>
 
+<link
+  href="{{ 'kinda-product-multicolumn.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+  rel="stylesheet">
+<noscript>
+  {{ 'kinda-product-multicolumn.css' | asset_url | stylesheet_tag }}
+</noscript>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
@@ -144,6 +153,9 @@
             </div>
           </li>
         {%- endfor -%}
+        <li>
+          {%- render 'nutritional-info', energy_kj: 1239, energy_kcal: 296, fat: 32, fat_saturates: 24, carbs: 4, carbs_sugar: 1, protein: 2, salt: 2 -%}
+        </li>
       </ul>
 
       {%- if show_mobile_slider -%}
@@ -198,7 +210,7 @@
 
 {% schema %}
   {
-    "name": "t:sections.multicolumn.name",
+    "name": "Product Multicolumn",
     "class": "section",
     "tag": "section",
     "settings": [
@@ -440,7 +452,7 @@
     ],
     "presets": [
       {
-        "name": "t:sections.multicolumn.presets.name",
+        "name": "Product Multicolumn",
         "blocks": [
           {
             "type": "column"

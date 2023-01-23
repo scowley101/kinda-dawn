@@ -1,0 +1,162 @@
+{% style %}
+  .table {
+    margin-top: 2rem;
+  }
+
+  .table,
+  th,
+  td {
+    border: 1px solid rgba(var(--color-foreground), .3);
+    border-collapse: collapse;
+    /* max-height: 70%; */
+    width: 100%;
+    height: 100%;
+  }
+
+
+  th,
+  td {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  th {
+    font-family: var(--font-bold);
+  }
+
+
+  th:first-child,
+  tr td:first-child {
+    width: 80%;
+    font-weight: 600;
+    padding-left: 2rem;
+    text-align: left;
+  }
+{% endstyle %}
+
+<div class="product__nutritional-info">
+
+  <h3>
+    Nutritional Information
+  </h3>
+
+  <table class="table">
+    <tbody>
+      <tr>
+        <th>
+          Typical Values
+        </th>
+        <th>
+          /100g
+        </th>
+        <th>
+          %RDA
+        </th>
+      </tr>
+      {% if energy_kj %}
+        <tr>
+          <td>
+            Energy (Kj)
+          </td>
+          <td>
+            {{ energy_kj }}
+          </td>
+          <td>
+            {{ energy_kj | times: 100.0 | divided_by: settings.energy_kj | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if energy_kcal %}
+        <tr>
+          <td>
+            Energy (Kcal)
+          </td>
+          <td>
+            {{ energy_kcal }}
+          </td>
+          <td>
+            {{ energy_kcal | times: 100.0 | divided_by: settings.energy_kcal | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if fat %}
+        <tr>
+          <td>
+            Fat (g)
+          </td>
+          <td>
+            {{ fat }}
+          </td>
+          <td>
+            {{ fat | times: 100.0 | divided_by: settings.fat | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if fat_saturates %}
+        <tr>
+          <td>
+            of which saturates (g)
+          </td>
+          <td>
+            {{ fat_saturates }}
+          </td>
+          <td>
+            {{ fat_saturates | times: 100.0 | divided_by: settings.fat_saturates | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if carbs %}
+        <tr>
+          <td>
+            Carbohydrates (g)
+          </td>
+          <td>
+            {{ carbs }}
+          </td>
+          <td>
+            {{ carbs | times: 100.0 | divided_by: settings.carbs | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if carbs_sugar %}
+        <tr>
+          <td>
+            of which sugars (g)
+          </td>
+          <td>
+            {{ carbs_sugar }}
+          </td>
+          <td>
+            {{ carbs_sugar | times: 100.0 | divided_by: settings.carbs_sugar | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if protein %}
+        <tr>
+          <td>
+            Protein (g)
+          </td>
+          <td>
+            {{ protein }}
+          </td>
+          <td>
+            {{ protein | times: 100.0 | divided_by: settings.protein | round }}%
+          </td>
+        </tr>
+      {% endif %}
+      {% if salt %}
+        <tr>
+          <td>
+            Salt
+          </td>
+          <td>
+            {{ salt }}
+          </td>
+          <td>
+            {{ salt | times: 100.0 | divided_by: settings.salt | round }}%
+          </td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
