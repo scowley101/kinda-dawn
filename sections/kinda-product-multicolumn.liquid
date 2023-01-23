@@ -103,11 +103,14 @@
                 </div>
               </div>
             </li>
+
+            {%- when 'nutritional-column' -%}
+            <li>
+              {%- render 'nutritional-info', energy_kj: product.metafields.custom.energy_kj, energy_kcal: product.metafields.custom.energy_kcal, fat: product.metafields.custom.fat, fat_saturates: product.metafields.custom.fat_saturates, carbs: product.metafields.custom.carbs, carbs_sugar: product.metafields.custom.carbs_sugar, protein: product.metafields.custom.protein, salt: product.metafields.custom.salt -%}
+            </li>
           {%- endcase -%}
         {%- endfor -%}
-        <li>
-          {%- render 'nutritional-info', energy_kj: 1239, energy_kcal: 296, fat: 32, fat_saturates: 24, carbs: 4, carbs_sugar: 1, protein: 2, salt: 2 -%}
-        </li>
+
       </ul>
 
       {%- if show_mobile_slider -%}

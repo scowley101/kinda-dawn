@@ -34,12 +34,10 @@
   }
 {% endstyle %}
 
-<div class="product__nutritional-info">
-
+<div class="product__nutritional">
   <h3>
     Nutritional Information
   </h3>
-
   <table class="table">
     <tbody>
       <tr>
@@ -53,13 +51,18 @@
           %RDA
         </th>
       </tr>
-      {% if energy_kj %}
+      {%- if energy_kj -%}
         <tr>
           <td>
             Energy (Kj)
           </td>
           <td>
-            {{ energy_kj }}
+            {% assign dec_split = energy_kj | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ energy_kj | round }}
+            {% else %}
+              {{ energy_kj }}
+            {% endif %}
           </td>
           <td>
             {{ energy_kj | times: 100.0 | divided_by: settings.energy_kj | round }}%
@@ -72,7 +75,12 @@
             Energy (Kcal)
           </td>
           <td>
-            {{ energy_kcal }}
+            {% assign dec_split = energy_kcal | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ energy_kcal | round }}
+            {% else %}
+              {{ energy_kcal }}
+            {% endif %}
           </td>
           <td>
             {{ energy_kcal | times: 100.0 | divided_by: settings.energy_kcal | round }}%
@@ -85,7 +93,12 @@
             Fat (g)
           </td>
           <td>
-            {{ fat }}
+            {% assign dec_split = fat | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ fat | round }}
+            {% else %}
+              {{ fat }}
+            {% endif %}
           </td>
           <td>
             {{ fat | times: 100.0 | divided_by: settings.fat | round }}%
@@ -98,7 +111,12 @@
             of which saturates (g)
           </td>
           <td>
-            {{ fat_saturates }}
+            {% assign dec_split = fat_saturates | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ fat_saturates | round }}
+            {% else %}
+              {{ fat_saturates }}
+            {% endif %}
           </td>
           <td>
             {{ fat_saturates | times: 100.0 | divided_by: settings.fat_saturates | round }}%
@@ -111,7 +129,12 @@
             Carbohydrates (g)
           </td>
           <td>
-            {{ carbs }}
+            {% assign dec_split = carbs | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ carbs | round }}
+            {% else %}
+              {{ carbs }}
+            {% endif %}
           </td>
           <td>
             {{ carbs | times: 100.0 | divided_by: settings.carbs | round }}%
@@ -124,7 +147,12 @@
             of which sugars (g)
           </td>
           <td>
-            {{ carbs_sugar }}
+            {% assign dec_split = carbs_sugar | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ carbs_sugar | round }}
+            {% else %}
+              {{ carbs_sugar }}
+            {% endif %}
           </td>
           <td>
             {{ carbs_sugar | times: 100.0 | divided_by: settings.carbs_sugar | round }}%
@@ -137,7 +165,12 @@
             Protein (g)
           </td>
           <td>
-            {{ protein }}
+            {% assign dec_split = protein | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ protein | round }}
+            {% else %}
+              {{ protein }}
+            {% endif %}
           </td>
           <td>
             {{ protein | times: 100.0 | divided_by: settings.protein | round }}%
@@ -150,10 +183,15 @@
             Salt
           </td>
           <td>
-            {{ salt }}
+            {% assign dec_split = salt | split: '.' %}
+            {%- if dec_split[1] == "0" -%}
+              {{ salt | round }}
+            {% else %}
+              {{ salt }}
+            {% endif %}
           </td>
           <td>
-            {{ salt | times: 100.0 | divided_by: settings.salt | round }}%
+            {{ salt | times: 100.0 | divided_by: settings.salt | round }}
           </td>
         </tr>
       {% endif %}
