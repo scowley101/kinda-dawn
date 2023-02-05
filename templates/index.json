@@ -225,6 +225,7 @@
     },
     "47a5e132-4d62-4fa2-805d-8e663aff45b9": {
       "type": "testimonial-slider",
+      "disabled": true,
       "blocks": {
         "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-0": {
           "type": "column",
