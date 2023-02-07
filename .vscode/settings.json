@@ -31,7 +31,7 @@
         // This setting is a kill-switch for beautification. Setting this to false will disable
         // formatting. This option will be changed when you press the status bar item.
         //
-        "liquid.format.enable": true,
+        "liquid.format.enable": false,
       
         // You can also define these rules within a .liquidrc file or on a "prettify" field in
         // package.json file. When either of those methods are used they will take precendence

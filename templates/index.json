@@ -223,53 +223,50 @@
         "show_text_below": false
       }
     },
-    "47a5e132-4d62-4fa2-805d-8e663aff45b9": {
-      "type": "testimonial-slider",
+    "02ee0e84-55bf-4edb-a0ac-3aba54b36ea8": {
+      "type": "kinda-testimonial-slideshow",
       "blocks": {
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-0": {
-          "type": "column",
+        "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-0": {
+          "type": "slide",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p><em>This cheese is so addictive, I finished the jar in two days! Great customer service too.<\/em><\/p><p><strong>BECKY<\/strong><\/p>",
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
           }
         },
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-1": {
-          "type": "column",
+        "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-1": {
+          "type": "slide",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p><em>I was hoping these would be good. But completely surpassed my expectations. Each jar has been absolutely gorgeous. And even the non vegan family members were fighting over them. Thanks Kinda Co❤️<\/em><\/p><p><strong>RICHARD<\/strong><\/p>",
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
           }
         },
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-2": {
-          "type": "column",
+        "b8744324-063f-4d44-8bb6-f30666200a44": {
+          "type": "slide",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p><em>This is the best of the best of vegan cheese! I find all Kinda products delicious, but I think the Farmhouse has the best flavour of them all.<\/em><\/p><p><strong>SALLY<\/strong><\/p>",
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-0",
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-1",
-        "template--16722218451162__47a5e132-4d62-4fa2-805d-8e663aff45b9-1674141448fc8a065c-2"
+        "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-0",
+        "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-1",
+        "b8744324-063f-4d44-8bb6-f30666200a44"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "layout": "full_bleed",
+        "slide_height": "small",
         "color_scheme": "background-2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "slider_visual": "none",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
@@ -280,6 +277,6 @@
     "1258839c-5487-47df-870b-111e841511a3",
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
     "cf9ff4fd-6701-4e7a-804a-b39abcac9612",
-    "47a5e132-4d62-4fa2-805d-8e663aff45b9"
+    "02ee0e84-55bf-4edb-a0ac-3aba54b36ea8"
   ]
 }

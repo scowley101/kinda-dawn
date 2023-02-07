@@ -44,6 +44,12 @@ slideshow-component .slideshow.banner {
   max-width: 54.5rem;
 }
 
+.slideshow__text--testimonial {
+width: 100%;  
+
+}
+
+
 .slideshow__text > * {
   max-width: 100%;
 }
@@ -107,6 +113,10 @@ slideshow-component .slideshow.banner {
 
 .slideshow__controls {
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.slideshow__controls--none {
+display: none;
 }
 
 .slideshow__controls--top {

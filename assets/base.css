@@ -448,7 +448,8 @@ body,
 }
 
 .text-bold {
-  
+  font-family: var(--font-heading-family);
+
 }
 
 h1,
@@ -3020,6 +3021,11 @@ details-disclosure>details {
 
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
+}
+
+strong {
+  font-family: var(--font-heading-family);
+
 }
 
 /* outline and border styling for Windows High Contrast Mode */
