@@ -1,16 +1,35 @@
 .kinda-multicolumn-list {
 display: grid;  
-grid: auto-flow dense / repeat(2, 1fr);
+/* grid: auto-flow dense / repeat(2, 1fr); */
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(4, 1fr min-content);
 gap: 0;
 
 }
 
 .kinda-multicolumn-list__nutritional {
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     grid-column: 2 / 3;
 }
 
 .kinda-multicolumn-list__blocks .multicolumn-card {
     padding-right: 5rem;
-    height: 50px;
+    /* height: 50px; */
+}
+
+@media screen and (max-width: 780px) {
+
+    .kinda-multicolumn-list {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(3, min-content); */
+        grid-template-rows: auto;
+
+grid-auto-rows: minmax(min-content, max-content);
+        /* grid-auto-flow: row; */
+    }
+    .kinda-multicolumn-list__nutritional {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
 }
