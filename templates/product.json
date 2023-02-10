@@ -1,163 +1,187 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-product",
-        "blocks": {
-          "title": {
-            "type": "title",
-            "settings": {
-            }
-          },
-          "9b888dff-e27a-40b4-ad89-1a2b28cd7986": {
-            "type": "rating",
-            "settings": {
-            }
-          },
-          "caption": {
-            "type": "text",
-            "settings": {
-              "text": "{{ product.metafields.descriptors.subtitle.value }}",
-              "text_style": "subtitle"
-            }
-          },
-          "price": {
-            "type": "price",
-            "settings": {
-            }
-          },
-          "variant_picker": {
-            "type": "variant_picker",
-            "settings": {
-              "picker_type": "button"
-            }
-          },
-          "quantity_selector": {
-            "type": "quantity_selector",
-            "settings": {
-            }
-          },
-          "buy_buttons": {
-            "type": "buy_buttons",
-            "settings": {
-              "show_dynamic_checkout": true
-            }
-          },
-          "ac56fda7-9dda-4bb8-a7f8-89968111e025": {
-            "type": "description",
-            "settings": {
-            }
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
           }
         },
-        "block_order": [
-          "title",
-          "9b888dff-e27a-40b4-ad89-1a2b28cd7986",
-          "caption",
-          "price",
-          "variant_picker",
-          "quantity_selector",
-          "buy_buttons",
-          "ac56fda7-9dda-4bb8-a7f8-89968111e025"
-        ],
-        "settings": {
-          "enable_sticky_info": true,
-          "media_size": "small",
-          "constrain_to_viewport": true,
-          "media_fit": "contain",
-          "gallery_layout": "thumbnail_slider",
-          "media_position": "left",
-          "image_zoom": "lightbox",
-          "mobile_thumbnails": "hide",
-          "hide_variants": true,
-          "enable_video_looping": false,
-          "padding_top": 36,
-          "padding_bottom": 12
-        }
-      },
-      "2e141bba-7520-4e22-a39d-f86b5edb6ecd": {
-        "type": "multicolumn",
-        "blocks": {
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-0": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1": {
-            "type": "column",
-            "settings": {
-              "title": "Ingredients",
-              "text": "<p><strong>Cashew Nuts (63%)<\/strong>, Unflavoured Coconut Oil, Miso (Filtered Water, <strong>Soy Beans<\/strong>, Brown Rice, Salt, Alcohol), Water, Natural Culture, Salt, Acidity Regulator (Citric Acid), Spirulina Powder<\/p><p><br\/>Allergens in <strong>bold<\/strong>. <\/p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "21e0e13c-d1e8-4d66-a04f-ef3682605775": {
-            "type": "column",
-            "settings": {
-              "title": "Storage Information",
-              "text": "<p>Average shelf life upon receiving 7-14 days.<\/p><p><\/p><p>Suitable for freezing - freeze on day on day of delivery and consume within 6 months. Defrost overnight in the fridge before eating.<\/p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2": {
-            "type": "column",
-            "settings": {
-              "title": "Nutritional Info",
-              "text": "<p><span style=\"text-decoration:underline\">Per 100g:<\/span><\/p><p>Energy                        2201kJ \/ 533Kcal<\/p><p>Fat                               51g<\/p><p>of which Saturates    28g<\/p><p>Carbohydrates           9.4g<\/p><p>of which Sugars         2.4g<\/p><p>Protein                        9.1g<\/p><p>Salt                              0.98g<\/p>",
-              "link_label": "",
-              "link": ""
-            }
+        "9b888dff-e27a-40b4-ad89-1a2b28cd7986": {
+          "type": "rating",
+          "settings": {
           }
         },
-        "block_order": [
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-0",
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1",
-          "21e0e13c-d1e8-4d66-a04f-ef3682605775",
-          "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2"
-        ],
-        "settings": {
-          "title": "",
-          "heading_size": "h1",
-          "image_width": "full",
-          "image_ratio": "adapt",
-          "columns_desktop": 3,
-          "column_alignment": "left",
-          "background_style": "none",
-          "button_label": "",
-          "button_link": "",
-          "color_scheme": "background-1",
-          "columns_mobile": "1",
-          "swipe_on_mobile": false,
-          "padding_top": 36,
-          "padding_bottom": 36
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "ac56fda7-9dda-4bb8-a7f8-89968111e025": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
-      "related-products": {
-        "type": "related-products",
-        "disabled": true,
-        "settings": {
-          "heading": "You may also like",
-          "heading_size": "h2",
-          "products_to_show": 4,
-          "columns_desktop": 4,
-          "color_scheme": "background-1",
-          "image_ratio": "square",
-          "show_secondary_image": true,
-          "show_vendor": false,
-          "show_rating": false,
-          "columns_mobile": "2",
-          "padding_top": 36,
-          "padding_bottom": 28
-        }
+      "block_order": [
+        "title",
+        "9b888dff-e27a-40b4-ad89-1a2b28cd7986",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "ac56fda7-9dda-4bb8-a7f8-89968111e025"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
-    "order": [
-      "main",
-      "2e141bba-7520-4e22-a39d-f86b5edb6ecd",
-      "related-products"
-    ]
-  }
+    "2e141bba-7520-4e22-a39d-f86b5edb6ecd": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p><strong>Cashew Nuts (63%)<\/strong>, Unflavoured Coconut Oil, Miso (Filtered Water, <strong>Soy Beans<\/strong>, Brown Rice, Salt, Alcohol), Water, Natural Culture, Salt, Acidity Regulator (Citric Acid), Spirulina Powder<\/p><p><br\/>Allergens in <strong>bold<\/strong>. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "21e0e13c-d1e8-4d66-a04f-ef3682605775": {
+          "type": "column",
+          "settings": {
+            "title": "Storage Information",
+            "text": "<p>Average shelf life upon receiving 7-14 days.<\/p><p><\/p><p>Suitable for freezing - freeze on day on day of delivery and consume within 6 months. Defrost overnight in the fridge before eating.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2": {
+          "type": "column",
+          "settings": {
+            "title": "Nutritional Info",
+            "text": "<p><span style=\"text-decoration:underline\">Per 100g:<\/span><\/p><p>Energy                        2201kJ \/ 533Kcal<\/p><p>Fat                               51g<\/p><p>of which Saturates    28g<\/p><p>Carbohydrates           9.4g<\/p><p>of which Sugars         2.4g<\/p><p>Protein                        9.1g<\/p><p>Salt                              0.98g<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1",
+        "21e0e13c-d1e8-4d66-a04f-ef3682605775",
+        "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "72befea5-ac23-41f7-9d7e-ef2d3825f427": {
+      "type": "kinda-product-multicolumn",
+      "blocks": {
+        "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-0": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p>{{ product.metafields.custom.product_ingredients | metafield_tag }}<\/p>"
+          }
+        },
+        "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-1": {
+          "type": "column",
+          "settings": {
+            "title": "Storage Information",
+            "text": "<p>{{ product.metafields.custom.product_storage_information | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-0",
+        "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-1"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2e141bba-7520-4e22-a39d-f86b5edb6ecd",
+    "72befea5-ac23-41f7-9d7e-ef2d3825f427",
+    "related-products"
+  ]
+}

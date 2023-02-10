@@ -84,10 +84,89 @@
         "show_vendor": false,
         "show_rating": true,
         "enable_quick_add": true,
+        "columns_tablet": "2",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "414d62cf-1378-4413-ad85-bc0eb606ebde": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_PS.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_FF.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hilton-great-taste-award-640w.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7b234f31-853c-406c-a71d-bcb34596f550": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_MS.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cb9132f2-dc62-4d4a-98f0-84007ce64aae": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_NS.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-0",
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-1",
+        "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-2",
+        "7b234f31-853c-406c-a71d-bcb34596f550",
+        "cb9132f2-dc62-4d4a-98f0-84007ce64aae"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "1258839c-5487-47df-870b-111e841511a3": {
@@ -274,6 +353,7 @@
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
     "5373e3c5-54f6-4cba-9216-d0628f500d90",
     "featured_collection",
+    "414d62cf-1378-4413-ad85-bc0eb606ebde",
     "1258839c-5487-47df-870b-111e841511a3",
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
     "cf9ff4fd-6701-4e7a-804a-b39abcac9612",
