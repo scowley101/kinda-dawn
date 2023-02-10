@@ -1150,13 +1150,15 @@ summary::-webkit-details-marker {
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
 
-  .grid--2-col-tablet .grid__item {
+  .grid--2-col-tablet .grid__item,
+  .grid--2-col-mobile .grid__item {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 }
 
 @media screen and (max-width: 989px) {
-  .grid--1-col-tablet-down .grid__item {
+  .grid--1-col-tablet-down .grid__item,
+  .grid--1-col-mobile-down .grid__item {
     width: 100%;
     max-width: 100%;
   }
@@ -1235,17 +1237,21 @@ summary::-webkit-details-marker {
     margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
   }
 
-  .grid--2-col-tablet-down .grid__item {
+  .grid--2-col-tablet-down .grid__item,
+  .grid--2-col-mobile-down .grid__item {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
+  .slider--tablet.grid--peek.grid--2-col-mobile-down .grid__item,
   .grid--peek .grid__item {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 
   .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
-  .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+  .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item,
+  .slider--tablet.grid--peek.grid--1-col-mobile-down .grid__item,
+  .slider--mobile.grid--peek.grid--1-col-mobile-down .grid__item {
     width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 }
@@ -1260,7 +1266,9 @@ summary::-webkit-details-marker {
   }
 
   .slider--tablet.grid--peek.grid--2-col-tablet .grid__item,
-  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item {
+  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
+  .slider--tablet.grid--peek.grid--2-col-mobile .grid__item,
+  .slider--tablet.grid--peek.grid--2-col-mobile-down .grid__item {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
   }
 
@@ -1272,7 +1280,8 @@ summary::-webkit-details-marker {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
-  .grid--1-col-tablet-down.grid--peek .grid__item {
+  .grid--1-col-tablet-down.grid--peek .grid__item,
+  .grid--1-col-mobile-down.grid--peek .grid__item {
     width: calc(100% - var(--grid-desktop-horizontal-spacing) - 3rem);
   }
 }
