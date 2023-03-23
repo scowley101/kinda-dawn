@@ -190,7 +190,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/slant-block_051fcd30-3a72-4888-b579-7ad5547e8218.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
