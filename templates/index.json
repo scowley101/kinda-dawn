@@ -107,6 +107,7 @@
     },
     "35f4e831-449e-4db7-a59d-c3406a806aee": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-0": {
           "type": "heading",
@@ -154,7 +155,6 @@
     },
     "2686dbb1-4dc3-4110-acd1-21374d128604": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "a95cd249-aa6a-4da9-b57a-9ab25f2f9af6": {
           "type": "heading",
@@ -222,7 +222,7 @@
         "show_rating": true,
         "enable_quick_add": true,
         "columns_tablet": "2",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 28
@@ -300,8 +300,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 100,
         "padding_bottom": 100
       }
