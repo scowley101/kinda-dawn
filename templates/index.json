@@ -1,46 +1,5 @@
 {
   "sections": {
-    "1258839c-5487-47df-870b-111e841511a3": {
-      "type": "kinda-image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1": {
-          "type": "text",
-          "settings": {
-            "text": "Habitant eu eu semper pretium cras blandit vulputate quis",
-            "text_style": "h1"
-          }
-        },
-        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all-products",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1",
-        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cranberry_background_f037b3b4-81f5-4ee3-b89f-35f237c4ff1c.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "desktop_content_width": "medium",
-        "color_scheme": "background-3",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "3d10db2c-2f57-4697-80d5-a819a0545e5c": {
       "type": "kinda-hero",
       "disabled": true,
@@ -354,6 +313,46 @@
         "padding_bottom": 100
       }
     },
+    "1258839c-5487-47df-870b-111e841511a3": {
+      "type": "kinda-image-banner",
+      "blocks": {
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "Habitant eu eu semper pretium cras blandit vulputate quis",
+            "text_style": "h1"
+          }
+        },
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all-products",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-1",
+        "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cranberry_background_f037b3b4-81f5-4ee3-b89f-35f237c4ff1c.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "desktop_content_width": "medium",
+        "color_scheme": "background-3",
+        "mobile_content_alignment": "right",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5": {
       "type": "multicolumn",
       "blocks": {
@@ -495,7 +494,6 @@
     }
   },
   "order": [
-    "1258839c-5487-47df-870b-111e841511a3",
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
     "5373e3c5-54f6-4cba-9216-d0628f500d90",
     "35f4e831-449e-4db7-a59d-c3406a806aee",
@@ -503,6 +501,7 @@
     "2686dbb1-4dc3-4110-acd1-21374d128604",
     "featured_collection",
     "414d62cf-1378-4413-ad85-bc0eb606ebde",
+    "1258839c-5487-47df-870b-111e841511a3",
     "18d86cf9-be11-4d1c-935c-279ba9d37dc5",
     "cf9ff4fd-6701-4e7a-804a-b39abcac9612",
     "02ee0e84-55bf-4edb-a0ac-3aba54b36ea8"
