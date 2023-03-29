@@ -231,8 +231,8 @@
         "columns_tablet": "2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "414d62cf-1378-4413-ad85-bc0eb606ebde": {
