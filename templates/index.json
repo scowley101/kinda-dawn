@@ -153,8 +153,56 @@
         "show_text_below": true
       }
     },
+    "884f845d-3721-4e7d-810e-a6ce0c09e7a8": {
+      "type": "image-banner",
+      "blocks": {
+        "4fabde79-01e0-45ef-91d2-601f819d467c": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "ce601cf8-31ec-42fc-8bdd-c9a2af5e900e": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "7ce93f87-c756-439d-b59d-42e10e9d9fb6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "4fabde79-01e0-45ef-91d2-601f819d467c",
+        "ce601cf8-31ec-42fc-8bdd-c9a2af5e900e",
+        "7ce93f87-c756-439d-b59d-42e10e9d9fb6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cheese-plate.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "2686dbb1-4dc3-4110-acd1-21374d128604": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "a95cd249-aa6a-4da9-b57a-9ab25f2f9af6": {
           "type": "heading",
@@ -451,6 +499,7 @@
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
     "5373e3c5-54f6-4cba-9216-d0628f500d90",
     "35f4e831-449e-4db7-a59d-c3406a806aee",
+    "884f845d-3721-4e7d-810e-a6ce0c09e7a8",
     "2686dbb1-4dc3-4110-acd1-21374d128604",
     "featured_collection",
     "414d62cf-1378-4413-ad85-bc0eb606ebde",
