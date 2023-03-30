@@ -199,6 +199,18 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+.card__heading{
+    font-size: calc(var(--font-heading-scale) * 1.3rem);
+  }
+ .price-item {
+    font-size: calc(var(--font-body-scale) * 1.3rem);
+  }
+  .card-information .rating-count {
+    display: none;
+  } 
+}
+
 .card--card.card--media > .card__content {
   margin-top: calc(0rem - var(--image-padding));
 }
