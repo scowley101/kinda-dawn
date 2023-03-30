@@ -11,10 +11,10 @@
     },
     "35f4e831-449e-4db7-a59d-c3406a806aee": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Some text about cheese",
             "heading_size": "h1"
@@ -22,6 +22,7 @@
         },
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
@@ -29,6 +30,7 @@
         },
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "",
             "button_link_1": "",
@@ -59,6 +61,7 @@
     },
     "0eb5692c-9ba4-4971-85e4-518fc6a4b5aa": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16720744382682__0eb5692c-9ba4-4971-85e4-518fc6a4b5aa-16801804401d103e79-0": {
           "type": "slide",
