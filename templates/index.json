@@ -15,7 +15,7 @@
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-0": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Some text about cheese",
             "heading_size": "h1"
           }
         },
@@ -48,7 +48,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
