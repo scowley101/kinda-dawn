@@ -53,6 +53,11 @@
         }
 
         @font-face {
+          font-family: "Cera Pro Bold";
+          src: url("https://cdn.shopify.com/s/files/1/0306/9178/6892/files/Cera_Pro_Bold.otf?v=1680185624") format("opentype"), url("../assets/Cera Pro Bold.otf") format("opentype");
+        }
+
+        @font-face {
           font-family: "Cera Pro Black";
           src: url("https://cdn.shopify.com/s/files/1/0306/9178/6892/files/cera-pro-black.otf?v=1673708001") format("opentype"), url("../assets/cera-pro-black§.otf") format("opentype");
         }
@@ -65,7 +70,7 @@
           --font-body-weight: {{ settings.type_body_font.weight }};
           --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-          --font-heading-family: Cera Pro Black, {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+          --font-heading-family: Cera Pro Bold, {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
           --font-heading-style: {{ settings.type_header_font.style }};
           --font-heading-weight: {{ settings.type_header_font.weight }};
 
