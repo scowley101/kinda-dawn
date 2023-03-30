@@ -70,7 +70,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-2",
         "image_ratio": "square",
         "show_secondary_image": true,
@@ -80,8 +80,8 @@
         "columns_tablet": "2",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "414d62cf-1378-4413-ad85-bc0eb606ebde": {
