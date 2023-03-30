@@ -9,61 +9,6 @@
         "button_link": "shopify:\/\/collections\/all-products"
       }
     },
-    "5373e3c5-54f6-4cba-9216-d0628f500d90": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "FRINGILLA ERAT AMET RISUS ERAT CURSUS BIBENDUM",
-            "heading_size": "h1"
-          }
-        },
-        "e19b8ed1-632c-45bb-9224-ffa8582f83a9": {
-          "type": "caption",
-          "disabled": true,
-          "settings": {
-            "caption": "FRINGILLA ERAT AMET RISUS ERAT CURSUS BIBENDUM",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "subtitle"
-          }
-        },
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-0",
-        "e19b8ed1-632c-45bb-9224-ffa8582f83a9",
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-1",
-        "template--16722218451162__5373e3c5-54f6-4cba-9216-d0628f500d90-1674137154663ff551-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/angled_blocks.png",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "35f4e831-449e-4db7-a59d-c3406a806aee": {
       "type": "image-banner",
       "blocks": {
@@ -99,7 +44,7 @@
         "template--16771326869722__35f4e831-449e-4db7-a59d-c3406a806aee-1679586861ba3d9b06-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/block-lineup.png",
+        "image": "shopify:\/\/shop_images\/cheese-plate.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -107,56 +52,8 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "2686dbb1-4dc3-4110-acd1-21374d128604": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "a95cd249-aa6a-4da9-b57a-9ab25f2f9af6": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "3fe489e4-31ae-4402-ba77-0f1f72185043": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "d9be815a-974c-44fb-8bd0-77f26088ca15": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "a95cd249-aa6a-4da9-b57a-9ab25f2f9af6",
-        "3fe489e4-31ae-4402-ba77-0f1f72185043",
-        "d9be815a-974c-44fb-8bd0-77f26088ca15"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/slant-block_051fcd30-3a72-4888-b579-7ad5547e8218.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -447,9 +344,7 @@
   },
   "order": [
     "3d10db2c-2f57-4697-80d5-a819a0545e5c",
-    "5373e3c5-54f6-4cba-9216-d0628f500d90",
     "35f4e831-449e-4db7-a59d-c3406a806aee",
-    "2686dbb1-4dc3-4110-acd1-21374d128604",
     "featured_collection",
     "414d62cf-1378-4413-ad85-bc0eb606ebde",
     "1258839c-5487-47df-870b-111e841511a3",
