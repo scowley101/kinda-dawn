@@ -360,13 +360,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/kinda-cheeseboard7.png",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "desktop_content_width": "wide",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
