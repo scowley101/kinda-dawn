@@ -10,6 +10,7 @@
         },
         "9b888dff-e27a-40b4-ad89-1a2b28cd7986": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -22,6 +23,11 @@
         },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "judgeme_preview_badge_product_page_8cb3a453": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -44,11 +50,6 @@
         },
         "ac56fda7-9dda-4bb8-a7f8-89968111e025": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "judgeme_preview_badge_product_page_8cb3a453": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -135,6 +136,7 @@
     },
     "72befea5-ac23-41f7-9d7e-ef2d3825f427": {
       "type": "kinda-product-multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-0": {
           "type": "column",
