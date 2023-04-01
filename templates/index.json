@@ -414,7 +414,7 @@
         "color_scheme": "background-2",
         "slider_visual": "none",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 5,
         "accessibility_info": "Slideshow about our brand"
       }
     }
