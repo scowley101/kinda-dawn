@@ -75,6 +75,7 @@
     },
     "2e141bba-7520-4e22-a39d-f86b5edb6ecd": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16722218647770__2e141bba-7520-4e22-a39d-f86b5edb6ecd-16741306653a04558f-1": {
           "type": "column",
@@ -128,6 +129,7 @@
     },
     "72befea5-ac23-41f7-9d7e-ef2d3825f427": {
       "type": "kinda-product-multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16743606616282__72befea5-ac23-41f7-9d7e-ef2d3825f427-1676051831ad55a057-0": {
           "type": "column",
