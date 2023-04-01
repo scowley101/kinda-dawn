@@ -447,7 +447,7 @@ body,
   font-weight: var(--font-body-weight);
 }
 
-.text-bold {
+b, .text-bold {
   font-family: var(--font-heading-family);
 
 }
