@@ -46,6 +46,11 @@
           "type": "description",
           "settings": {
           }
+        },
+        "judgeme_preview_badge_product_page_8cb3a453": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -53,6 +58,7 @@
         "9b888dff-e27a-40b4-ad89-1a2b28cd7986",
         "caption",
         "price",
+        "judgeme_preview_badge_product_page_8cb3a453",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
