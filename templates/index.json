@@ -1,14 +1,5 @@
 {
   "sections": {
-    "3d10db2c-2f57-4697-80d5-a819a0545e5c": {
-      "type": "kinda-hero",
-      "disabled": true,
-      "settings": {
-        "tagline": "Fringilla amet risus erat cursus",
-        "button_text": "Shop now",
-        "button_link": "shopify:\/\/collections\/all-products"
-      }
-    },
     "35f4e831-449e-4db7-a59d-c3406a806aee": {
       "type": "image-banner",
       "blocks": {
@@ -57,80 +48,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "0eb5692c-9ba4-4971-85e4-518fc6a4b5aa": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--16720744382682__0eb5692c-9ba4-4971-85e4-518fc6a4b5aa-16801804401d103e79-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cheese-plate.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16720744382682__0eb5692c-9ba4-4971-85e4-518fc6a4b5aa-16801804401d103e79-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slant-block_051fcd30-3a72-4888-b579-7ad5547e8218.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "127a4b03-a8d7-430f-b947-e89a6e517c2d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cheeseboard-mask-3_5b16ca0e-efc3-4449-86a0-3fcf37f29767.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16720744382682__0eb5692c-9ba4-4971-85e4-518fc6a4b5aa-16801804401d103e79-0",
-        "template--16720744382682__0eb5692c-9ba4-4971-85e4-518fc6a4b5aa-16801804401d103e79-1",
-        "127a4b03-a8d7-430f-b947-e89a6e517c2d"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
@@ -420,9 +337,7 @@
     }
   },
   "order": [
-    "3d10db2c-2f57-4697-80d5-a819a0545e5c",
     "35f4e831-449e-4db7-a59d-c3406a806aee",
-    "0eb5692c-9ba4-4971-85e4-518fc6a4b5aa",
     "featured_collection",
     "414d62cf-1378-4413-ad85-bc0eb606ebde",
     "1258839c-5487-47df-870b-111e841511a3",
