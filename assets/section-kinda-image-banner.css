@@ -438,7 +438,7 @@ padding-bottom: 5rem;
 @media screen and (max-width: 799px) {
   .kinda-banner::after,
   .kinda-banner__media::after {
-    opacity: 60%;
+    opacity: 20%;
     z-index: 1;
    
   }
