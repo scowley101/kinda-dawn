@@ -148,13 +148,13 @@
         "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cranberry_background_f037b3b4-81f5-4ee3-b89f-35f237c4ff1c.png",
+        "image": "shopify:\/\/shop_images\/truffle_background.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "desktop_content_width": "medium",
+        "desktop_content_width": "thin",
         "color_scheme": "background-1",
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": false,
