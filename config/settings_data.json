@@ -124,6 +124,7 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "cart_type": "drawer",
+    "show_cart_note": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Kinda_Co_Logo_cropped_15d61fb1-160b-4852-bd7c-4890cb1c314c.png",
     "sections": {
       "announcement-bar": {
