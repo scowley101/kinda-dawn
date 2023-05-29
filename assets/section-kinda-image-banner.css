@@ -8,7 +8,7 @@
     text-align: center;
   }
   
-  @media only screen and (max-width: 749px) {
+  @media only screen and (max-width: 799px) {
     .kinda-banner--content-align-mobile-right .kinda-banner__box {
       text-align: right;
     }
@@ -248,7 +248,7 @@
     height: auto;
   }
   
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 799px) {
     .kinda-banner--mobile-bottom .kinda-banner__media,
     .kinda-banner--stacked:not(.kinda-banner--mobile-bottom) .kinda-banner__media {
       position: relative;
@@ -435,7 +435,7 @@ padding-bottom: 5rem;
     height: 100%;
   }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 799px) {
   .kinda-banner::after,
   .kinda-banner__media::after {
     opacity: 60%;
