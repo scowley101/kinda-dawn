@@ -435,5 +435,25 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "no_rates_for_cart_or_destination_notice": "Minimum order value is £20. Please add more items to your cart. ",
+        "no_rates_for_country_notice": "Minimum order value is £20. Please add more items to your cart. ",
+        "no_rates_contact_notice": "Minimum order value is £20. Please add more items to your cart. ",
+        "other_method": {
+          "zero": "Minimum order value is £20. Please add more items to your cart. "
+        },
+        "no_other_methods_available": "Minimum order value is £20. Please add more items to your cart. "
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Minimum order value is £20. Please add more items to your cart. ",
+        "shipping_method_not_available_generic": {
+          "one": "Minimum order value is £20. Please add more items to your cart. ",
+          "other": "Minimum order value is £20. Please add more items to your cart. "
+        }
+      }
+    }
   }
 }
