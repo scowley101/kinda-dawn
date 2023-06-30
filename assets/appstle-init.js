@@ -44,7 +44,7 @@
         "deliveryText": "delivery",
         "purchaseOptionsText": "Purchase Options",
         "manageSubscriptionButtonText": "Manage Subscription",
-        "subscriptionOptionText": "Sign up now",
+        "subscriptionOptionText": "Monthly Subscription",
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "",
         "tooltipTitle": "Subscription detail",
