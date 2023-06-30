@@ -44,7 +44,7 @@
         "deliveryText": "delivery",
         "purchaseOptionsText": "Purchase Options",
         "manageSubscriptionButtonText": "Manage Subscription",
-        "subscriptionOptionText": "Monthly Subscription",
+        "subscriptionOptionText": "Cheese Club Subscription",
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "",
         "tooltipTitle": "Subscription detail",
