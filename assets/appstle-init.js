@@ -60,7 +60,7 @@
         "totalPricePerDeliveryText" : "{{prepaidPerDeliveryPrice}}\/delivery",
         "memberOnlySellingPlansJson": {},
         "nonMemberOnlySellingPlansJson": {},
-        "sellingPlansJson": [{"frequencyCount":1,"frequencyInterval":"MONTH","billingFrequencyCount":1,"billingFrequencyInterval":"MONTH","frequencyName":"Monthly ","afterCycle1":0,"afterCycle2":0,"discountEnabled":false,"discountEnabled2":false,"discountEnabledMasked":false,"discountEnabled2Masked":false,"id":"gid://shopify/SellingPlan/21046329562","frequencyType":"ON_PURCHASE_DAY","specificDayEnabled":false,"cutOff":0,"prepaidFlag":"false","idNew":"gid://shopify/SellingPlan/21046329562","planType":"PAY_AS_YOU_GO","deliveryPolicyPreAnchorBehavior":"ASAP","freeTrialEnabled":false,"memberOnly":false,"nonMemberOnly":false,"frequencySequence":0,"groupName":"Cheese Club Monthly Subscription","appstleCycles":[]}],
+        "sellingPlansJson": [{"frequencyCount":1,"frequencyInterval":"MONTH","billingFrequencyCount":1,"billingFrequencyInterval":"MONTH","frequencyName":"Monthly ","afterCycle1":0,"afterCycle2":0,"discountEnabled":false,"discountEnabled2":false,"discountEnabledMasked":false,"discountEnabled2Masked":false,"id":"gid://shopify/SellingPlan/21046329562","frequencyType":"ON_SPECIFIC_DAY","specificDayValue":1,"specificDayEnabled":true,"cutOff":2,"prepaidFlag":"false","idNew":"gid://shopify/SellingPlan/21046329562","planType":"PAY_AS_YOU_GO","deliveryPolicyPreAnchorBehavior":"ASAP","freeTrialEnabled":false,"memberOnly":false,"nonMemberOnly":false,"formFieldJson":"[]","frequencySequence":0,"groupName":"Cheese Club Monthly Subscription","appstleCycles":[]}],
         "widgetEnabled": true,
         "showTooltip" : true,
         "sortByDefaultSequence": false,
