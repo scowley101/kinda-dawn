@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0306/9178/6892/t/15/assets/appstle-subscription.js?v=1688110481");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0306/9178/6892/t/15/assets/appstle-subscription.js?v=1688801644");
 
 
       window.RS = Window.RS || {};
@@ -60,7 +60,7 @@
         "totalPricePerDeliveryText" : "{{prepaidPerDeliveryPrice}}\/delivery",
         "memberOnlySellingPlansJson": {},
         "nonMemberOnlySellingPlansJson": {},
-        "sellingPlansJson": [{"frequencyCount":1,"frequencyInterval":"MONTH","billingFrequencyCount":1,"billingFrequencyInterval":"MONTH","frequencyName":"Monthly ","afterCycle1":0,"afterCycle2":0,"discountEnabled":false,"discountEnabled2":false,"discountEnabledMasked":false,"discountEnabled2Masked":false,"id":"gid://shopify/SellingPlan/21046329562","frequencyType":"ON_SPECIFIC_DAY","specificDayValue":1,"specificDayEnabled":true,"cutOff":30,"prepaidFlag":"false","idNew":"gid://shopify/SellingPlan/21046329562","planType":"PAY_AS_YOU_GO","deliveryPolicyPreAnchorBehavior":"ASAP","freeTrialEnabled":false,"memberOnly":false,"nonMemberOnly":false,"formFieldJson":"[]","frequencySequence":0,"groupName":"Cheese Club Monthly Subscription","appstleCycles":[]}],
+        "sellingPlansJson": [{"frequencyCount":1,"frequencyInterval":"MONTH","billingFrequencyCount":1,"billingFrequencyInterval":"MONTH","frequencyName":"Monthly ","afterCycle1":0,"afterCycle2":0,"discountEnabled":false,"discountEnabled2":false,"discountEnabledMasked":false,"discountEnabled2Masked":false,"id":"gid://shopify/SellingPlan/21046329562","frequencyType":"ON_SPECIFIC_DAY","specificDayValue":12,"specificDayEnabled":true,"cutOff":30,"prepaidFlag":"false","idNew":"gid://shopify/SellingPlan/21046329562","planType":"PAY_AS_YOU_GO","deliveryPolicyPreAnchorBehavior":"ASAP","freeTrialEnabled":false,"memberOnly":false,"nonMemberOnly":false,"formFieldJson":"[]","frequencySequence":0,"groupName":"Cheese Club Monthly Subscription","appstleCycles":[]}],
         "widgetEnabled": true,
         "showTooltip" : true,
         "sortByDefaultSequence": false,
