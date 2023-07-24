@@ -186,12 +186,66 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "b1199078-a724-47e2-a371-6f3bf3896798": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p><span style=\"text-decoration:underline\">Ingredients:<\/span><\/p><p><strong>Cashew Nuts (63%)<\/strong>, Unflavoured Coconut Oil, Miso (Filtered Water, <strong>Soy Beans<\/strong>, Brown Rice, Salt, Alcohol), Water, Natural Culture, Salt, Acidity Regulator (Citric Acid), Spirulina Powder. <\/p><p>Allergens in <strong>bold<\/strong>. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "NUTRITIONAL INFO PER 100G",
+            "text": "<p>Energy: 2201kJ \/ 533Kcal<\/p><p>Fat: 51g<\/p><p>of which saturates: 28g<\/p><p>Carbohydrates: 9.4g<\/p><p>of which sugars: 2.4g<\/p><p>Protein: 9.1g<\/p><p>Salt: 0.98g<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "SHELF LIFE",
+            "text": "<p>Average shelf life upon receiving is 7-14 days.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-1",
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-2",
+        "template--16743606649050__b1199078-a724-47e2-a371-6f3bf3896798-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "2e141bba-7520-4e22-a39d-f86b5edb6ecd",
     "72befea5-ac23-41f7-9d7e-ef2d3825f427",
-    "related-products"
+    "related-products",
+    "b1199078-a724-47e2-a371-6f3bf3896798"
   ]
 }
