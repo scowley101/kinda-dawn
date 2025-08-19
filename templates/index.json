@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "35f4e831-449e-4db7-a59d-c3406a806aee": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/kinda-cheeseboard4.png",
+        "image": "shopify://shop_images/kinda-cheeseboard4.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -23,7 +32,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cheese-bundles",
+        "collection": "bestsellers",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -49,7 +58,7 @@
         "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_PS.png",
+            "image": "shopify://shop_images/Kinda_Co_Icon_PS.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -59,7 +68,7 @@
         "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_FF.png",
+            "image": "shopify://shop_images/Kinda_Co_Icon_FF.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -69,7 +78,7 @@
         "template--16739675930842__414d62cf-1378-4413-ad85-bc0eb606ebde-16760514122eb48314-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hilton-great-taste-award-640w.jpg",
+            "image": "shopify://shop_images/hilton-great-taste-award-640w.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -79,7 +88,7 @@
         "7b234f31-853c-406c-a71d-bcb34596f550": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_MS.png",
+            "image": "shopify://shop_images/Kinda_Co_Icon_MS.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -89,7 +98,7 @@
         "cb9132f2-dc62-4d4a-98f0-84007ce64aae": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kinda_Co_Icon_NS.png",
+            "image": "shopify://shop_images/Kinda_Co_Icon_NS.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -135,7 +144,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all-products",
+            "button_link_1": "shopify://collections/all-products",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -148,7 +157,7 @@
         "template--16722218451162__1258839c-5487-47df-870b-111e841511a3-1673278581674053c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/truffle_background.png",
+        "image": "shopify://shop_images/truffle_background.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -167,7 +176,7 @@
         "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/planet-organic-logo.png",
+            "image": "shopify://shop_images/planet-organic-logo.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -177,7 +186,7 @@
         "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/better-food.jpg",
+            "image": "shopify://shop_images/better-food.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -187,7 +196,7 @@
         "template--16722218451162__18d86cf9-be11-4d1c-935c-279ba9d37dc5-16736959450681dad4-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vegan-kind-logo-wide.png",
+            "image": "shopify://shop_images/vegan-kind-logo-wide.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -209,7 +218,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "all stockists",
-        "button_link": "shopify:\/\/pages\/stockists",
+        "button_link": "shopify://pages/stockists",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -230,7 +239,7 @@
         "95b5fddc-7620-4620-bf2a-848ffd26c199": {
           "type": "image",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/kinda-plant-based-icon.png",
+            "block_image": "shopify://shop_images/kinda-plant-based-icon.png",
             "image_width": "third",
             "image_ratio": "adapt"
           }
@@ -241,7 +250,7 @@
         "95b5fddc-7620-4620-bf2a-848ffd26c199"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kinda-cheeseboard7.png",
+        "image": "shopify://shop_images/kinda-cheeseboard7.png",
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "top-left",
@@ -260,7 +269,7 @@
         "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-0": {
           "type": "slide",
           "settings": {
-            "text": "<p><em>This cheese is so addictive, I finished the jar in two days! Great customer service too.<\/em><\/p><p><strong>BECKY<\/strong><\/p>",
+            "text": "<p><em>This cheese is so addictive, I finished the jar in two days! Great customer service too.</em></p><p><strong>BECKY</strong></p>",
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center"
@@ -269,7 +278,7 @@
         "template--16739675930842__02ee0e84-55bf-4edb-a0ac-3aba54b36ea8-1675777385f48797cd-1": {
           "type": "slide",
           "settings": {
-            "text": "<p><em>I was hoping these would be good. But completely surpassed my expectations. Each jar has been absolutely gorgeous. And even the non vegan family members were fighting over them. Thanks Kinda Co❤️<\/em><\/p><p><strong>RICHARD<\/strong><\/p>",
+            "text": "<p><em>I was hoping these would be good. But completely surpassed my expectations. Each jar has been absolutely gorgeous. And even the non vegan family members were fighting over them. Thanks Kinda Co❤️</em></p><p><strong>RICHARD</strong></p>",
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center"
@@ -278,7 +287,7 @@
         "b8744324-063f-4d44-8bb6-f30666200a44": {
           "type": "slide",
           "settings": {
-            "text": "<p><em>This is the best of the best of vegan cheese! I find all Kinda products delicious, but I think the Farmhouse has the best flavour of them all.<\/em><\/p><p><strong>SALLY<\/strong><\/p>",
+            "text": "<p><em>This is the best of the best of vegan cheese! I find all Kinda products delicious, but I think the Farmhouse has the best flavour of them all.</em></p><p><strong>SALLY</strong></p>",
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center"
